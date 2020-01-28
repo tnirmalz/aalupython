@@ -31,11 +31,13 @@ osint_sites = [
     "bitbucket.org",
     "*.atlassian.net",
     "gitlab.com",
-	"speakerdeck.com",
-	"slideshare.net",
-	"linkedin.com",
-	"hub.docker.com"
-	]
+    "speakerdeck.com",
+    "slideshare.net",
+    "linkedin.com",
+    "hub.docker.com",
+    "dotnetfiddle.net",
+    "jsfiddle.net"
+    ]
 
 for x in osint_sites:
     webbrowser.open('https://www.google.com.np/search?q=site:{}%20%22{}%22'.format(x, target))
