@@ -37,7 +37,8 @@ osint_sites = [
     "hub.docker.com",
     "dotnetfiddle.net",
     "jsfiddle.net",
-    "asciinema.org"
+    "asciinema.org",
+    "developpez.net"
     ]
 
 for x in osint_sites:
