@@ -38,7 +38,8 @@ osint_sites = [
     "dotnetfiddle.net",
     "jsfiddle.net",
     "asciinema.org",
-    "developpez.net"
+    "developpez.net",
+    "slides.com"
     ]
 
 for x in osint_sites:
